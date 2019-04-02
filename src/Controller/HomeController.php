@@ -21,7 +21,7 @@ class HomeController extends AbstractController
     }
 
     /**
-     * @Route("/a-propos")
+     * @Route("/a-propos", name="app_about")
      */
     public function about()
     {
