@@ -2,4 +2,11 @@
 
 {% block body %}
     <h1>Page d'accueil</h1>
+
+    <a href="{{ path('app_session_ajout') }}" class="btn btn-primary">
+        Ajout d'un article
+    </a>
+    <a href="{{ path('app_panier') }}" class="btn btn-success">
+        Panier
+    </a>
 {% endblock %}
